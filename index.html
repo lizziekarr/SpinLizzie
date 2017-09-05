@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spin Lizzie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <!-- <div class="form-group login-page">
+      <div class="message">
+        <h3>You have been invited to exclusively preview new music by Spin Lizzie. Please enter the secret code below.</h3>
+      </div>
+      <div class="form">
+        <div class="input-group">
+          <input type="password" name="password" class="password" value="">
+          <input type="submit" class="submit" name="Submit" value="Submit" onclick="Enter()">
+        </div>
+      </div>
+    </div>
+    <div class="main-page">
+      <div class="media">
+        <h1>Spin Lizzie</h1>
+        <h3>New Single: Miss Broadway</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/G6UMKPKg4Mg" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="bio">
+        <strong>Bio:</strong>
+        <p>Lizzie Karr and DJ Zeph met in Oakland in 2012. Lizzie was in production on her first songwriter album 'Bones' and Zeph was knee deep in a project with drummer Max McVeety.  After a couple years of friendship and music-sharing, the two said "screw it" and decided to pair their wildly different musical styles.  Lizzie brought her husky voice, instrumentals, and imaginative songwriting style.  Zeph brought creative samples and heavy beats. Miss Broadway is the first of 7 tracks that will be released in the coming year.  </p>
+      </div>
+    </div> -->
+    <script type="text/javascript">
+    var password;
+    function Enter(){
+      password= document.querySelector('.password').value;
+      console.log(password);
+      if (password==='MissBroadway101') {
+        document.querySelector('.login-page').style.display="none";
+        document.querySelector('.main-page').style.display="block";
+      }
+    };
+    </script>
+  </body>
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+  <script type="text/javascript" src='app.js'></script>
+</html>

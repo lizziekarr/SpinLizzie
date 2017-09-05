@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  position: absolute;
+  width: 100%;
+}
+
+div, h1 {
+  position: absolute;
+}
+
+/*.message {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 20vh;
+  border-radius: 5px;
+}
+
+.message h3 {
+  color: #404040;
+  font-family: "Baloo Tamudu";
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.submit, .password {
+  height: 30px;
+  border-radius: 0;
+}
+
+
+.main-page {
+  display: none;
+}*/
